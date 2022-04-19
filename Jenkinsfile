@@ -58,7 +58,7 @@ pipeline {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "https://ozat.jfrog.io/artifactory/mypass/",
+                       "target": "https://ozat.jfrog.io/artifactory/mypass/php-todo",
                        "props": "type=zip;status=ready"
                        }
                     ]
