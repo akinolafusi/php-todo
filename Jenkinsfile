@@ -58,14 +58,14 @@ pipeline {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "newphp/",
+                       "target": "https://ozat.jfrog.io/artifactory/mypass/",
                        "props": "type=zip;status=ready"
                        }
                     ]
                  }""" 
 
                  server.upload spec: uploadSpec
-               }
+                }
             }
         }
         
