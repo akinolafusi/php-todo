@@ -58,7 +58,7 @@ pipeline {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "mypass",
+                       "target": "mypass/php-todo",
                        "props": "type=zip;status=ready"
                        }
                     ]
