@@ -58,7 +58,7 @@ pipeline {
                     "files": [
                       {
                        "pattern": "php-todo.zip",
-                       "target": "newphp/php-todo",
+                       "target": "artifactory/newphp/",
                        "props": "type=zip;status=ready"
                        }
                     ]
